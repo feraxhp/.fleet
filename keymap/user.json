@@ -1,0 +1,288 @@
+{
+  "keymap": [
+    {
+      "key": "shift-ctrl-alt-down",
+      "trigger": "add-caret-down"
+    },
+    {
+      "key": "ctrl-alt-down",
+      "trigger": "-add-caret-down"
+    },
+    {
+      "key": "shift-t",
+      "trigger": "new-terminal"
+    },
+    {
+      "key": "shift-alt-right",
+      "trigger": "ai/new-assistant-tool"
+    },
+    {
+      "key": "ctrl-alt-up",
+      "trigger": "-add-caret-up"
+    },
+    {
+      "key": "shift-ctrl-alt-up",
+      "trigger": "add-caret-up"
+    },
+    {
+      "key": "ctrl-shift-leftbracket",
+      "trigger": "-collapse-folding"
+    },
+    {
+      "key": "ctrl-minus",
+      "trigger": "collapse-folding"
+    },
+    {
+      "key": "ctrl-shift-slash",
+      "trigger": "-comment-block"
+    },
+    {
+      "key": "ctrl-shift-numpaddivide",
+      "trigger": "-comment-block"
+    },
+    {
+      "key": "shift-ctrl-b",
+      "trigger": "comment-block"
+    },
+    {
+      "key": "ctrl-slash",
+      "trigger": "-comment-line"
+    },
+    {
+      "key": "ctrl-shift-digit7",
+      "trigger": "-comment-line"
+    },
+    {
+      "key": "shift-ctrl-c",
+      "trigger": "comment-line"
+    },
+    {
+      "key": "ctrl-numpaddivide",
+      "trigger": "-comment-line"
+    },
+    {
+      "key": "ctrl-insert",
+      "trigger": "-copy"
+    },
+    {
+      "key": "ctrl-shift-rightbracket",
+      "trigger": "-expand-folding"
+    },
+    {
+      "key": "ctrl-plus",
+      "trigger": "expand-folding"
+    },
+    {
+      "key": "ctrl-b",
+      "trigger": "-go-to-declaration"
+    },
+    {
+      "key": "ctrl-insert",
+      "trigger": "go-to-declaration"
+    },
+    {
+      "key": "alt-down",
+      "trigger": "-move-line-down"
+    },
+    {
+      "key": "shift-alt-down",
+      "trigger": "move-line-down"
+    },
+    {
+      "key": "alt-up",
+      "trigger": "-move-line-up"
+    },
+    {
+      "key": "shift-alt-up",
+      "trigger": "move-line-up"
+    },
+    {
+      "key": "ctrl-n",
+      "trigger": "-new-file"
+    },
+    {
+      "key": "shift-f",
+      "trigger": "new-file"
+    },
+    {
+      "key": "ctrl-alt-return",
+      "trigger": "-new-line-above"
+    },
+    {
+      "key": "ctrl-alt-numpadenter",
+      "trigger": "-new-line-above"
+    },
+    {
+      "key": "ctrl-return",
+      "trigger": "new-line-above"
+    },
+    {
+      "key": "ctrl-shift-graveaccent",
+      "trigger": "-new-terminal"
+    },
+    {
+      "key": "ctrl-t",
+      "trigger": "next-tab"
+    },
+    {
+      "key": "ctrl-t",
+      "trigger": "-show-goto-tool-panel"
+    },
+    {
+      "key": "shift-ctrl-t",
+      "trigger": "show-goto-tool-panel"
+    },
+    {
+      "key": "ctrl-r",
+      "trigger": "-go-to-run"
+    },
+    {
+      "key": "shift-ctrl-f10",
+      "trigger": "go-to-run"
+    },
+    {
+      "key": "shift-d",
+      "trigger": "new-folder"
+    },
+    {
+      "key": "alt-shift-down",
+      "trigger": "-shrink-selection"
+    },
+    {
+      "key": "alt-shift-up",
+      "trigger": "-expand-selection"
+    },
+    {
+      "key": "alt-shift-d",
+      "trigger": "-duplicate-line"
+    },
+    {
+      "key": "shift-ctrl-down",
+      "trigger": "duplicate-line"
+    },
+    {
+      "key": "shift-f6",
+      "trigger": "rename"
+    },
+    {
+      "key": "ctrl-d",
+      "trigger": "-select-next-occurrence"
+    },
+    {
+      "key": "shift-f6",
+      "trigger": "workspace-tree/rename-file"
+    },
+    {
+      "key": "shift-ctrl-alt-k",
+      "trigger": "edit-keymap"
+    },
+    {
+      "key": "ctrl-shift-return",
+      "trigger": "-insert-newline-character"
+    },
+    {
+      "key": "ctrl-shift-return",
+      "trigger": "-complete-statement"
+    },
+    {
+      "key": "ctrl-return",
+      "trigger": "-new-line"
+    },
+    {
+      "key": "ctrl-numpadenter",
+      "trigger": "-new-line"
+    },
+    {
+      "key": "shift-return",
+      "trigger": "new-line"
+    },
+    {
+      "key": "shift-numpadenter",
+      "trigger": "-find-input-prev-occurrence"
+    },
+    {
+      "key": "shift-return",
+      "trigger": "-find-input-prev-occurrence"
+    },
+    {
+      "key": "shift-return",
+      "trigger": "-wrap-line"
+    },
+    {
+      "key": "ctrl-shift-c",
+      "trigger": "-copy-from-terminal"
+    },
+    {
+      "key": "ctrl-c",
+      "trigger": "copy-from-terminal"
+    },
+    {
+      "key": "shift-ctrl-alt-l",
+      "trigger": "reformat-code"
+    },
+    {
+      "key": "shift-f10",
+      "trigger": "-show-context-menu"
+    },
+    {
+      "key": "shift-f10",
+      "trigger": "run/rerun"
+    },
+    {
+      "key": "shift-ctrl-alt-f10",
+      "trigger": "edit-run-configurations"
+    },
+    {
+      "key": "alt-f10",
+      "trigger": "run/rerun-failed-tests"
+    },
+    {
+      "key": "ctrl-shift-s",
+      "trigger": "-save-all"
+    },
+    {
+      "key": "shift-ctrl-alt-s",
+      "trigger": "save-all"
+    },
+    {
+      "key": "shift-ctrl-s",
+      "trigger": "save-file-as"
+    },
+    {
+      "key": "shift-ctrl-return",
+      "trigger": "show-in-file-manager"
+    },
+    {
+      "key": "ctrl-b ctrl-return",
+      "trigger": "show-in-browser"
+    },
+    {
+      "key": "ctrl-e ctrl-return",
+      "trigger": "show-in-file-manager"
+    },
+    {
+      "key": "escape",
+      "trigger": "-focus-main-panel"
+    },
+    {
+      "key": "alt-digit0",
+      "trigger": "focus-main-panel"
+    },
+    {
+      "key": "ctrl-q",
+      "trigger": "show-documentation"
+    },
+    {
+      "key": "ctrl-shift-z",
+      "trigger": "-redo"
+    },
+    {
+      "key": "ctrl-y",
+      "trigger": "redo"
+    },
+    {
+      "key": "ctrl-shift-b",
+      "trigger": "-go-to-type-declaration"
+    }
+  ]
+}

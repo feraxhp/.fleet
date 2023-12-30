@@ -1,0 +1,25 @@
+{
+    "editor.guides": [],
+    "theme": "dark_purple-edited",
+    "run.recentConfigurationsSize": 10,
+    "restoreWorkspacesOnStartup": false,
+    "createScratchOnNewFile": true,
+    "showShortcuts": true,
+    "terminal.profiles": [
+        {
+            "program": "pwsh.exe",
+            "args": ["-nologo"], 
+        }
+    ],
+    "terminal.fontFamily": "JetBrains Mono",
+    "editor.showFloatingDebugPanel": true,
+    "fus.ai.sendAllowed": true,
+    "launchTerminalOnOpen": true,
+    "editor.showFileStatus": false,
+    "editor.showCodeVision": false,
+    "python.interpreters": [
+        {
+            "path": "C:\\Users\\Humberto Parra\\Documents\\FDN_Documents\\Proyecto_FDN\\Python_proyects\\Lambda_functions\\FN_0021_ADMON_DESPLIEGUE_APPS_AWS_EXPORTAR_OBJETOS\\env_lambda_3.11\\Scripts\\python.exe"
+        }
+    ]
+}

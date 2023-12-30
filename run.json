@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "dev-sso session",
+            "program": "pwsh.exe",
+            "args": [
+                "-command",
+                "aws", "sso", "login", "--profile", "dev-sso",
+            ],
+        },
+    ]
+}
