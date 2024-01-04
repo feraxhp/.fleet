@@ -1,6 +1,5 @@
 {
-    "editor.guides": [],
-    "theme": "dark_purple-edited",
+    "theme": "FeraxTheme",
     "run.recentConfigurationsSize": 10,
     "restoreWorkspacesOnStartup": false,
     "createScratchOnNewFile": true,
@@ -17,9 +16,42 @@
     "launchTerminalOnOpen": true,
     "editor.showFileStatus": false,
     "editor.showCodeVision": false,
-    "python.interpreters": [
+    "editor.renderWhitespace": "All",
+    "editor.showStickyLines": true,
+    "editor.alwaysShowVerticalScrollbar": false,
+    "completion.autoPopupDelay": 40,
+    "plugins": [
         {
-            "path": "C:\\Users\\Humberto Parra\\Documents\\FDN_Documents\\Proyecto_FDN\\Python_proyects\\Lambda_functions\\FN_0021_ADMON_DESPLIEGUE_APPS_AWS_EXPORTAR_OBJETOS\\env_lambda_3.11\\Scripts\\python.exe"
+            "type": "remove",
+            "pluginName": "fleet.aiCompletion"
+        },
+        {
+            "type": "remove",
+            "pluginName": "fleet.go.ai"
+        },
+        {
+            "type": "remove",
+            "pluginName": "fleet.java.ai"
+        },
+        {
+            "type": "remove",
+            "pluginName": "fleet.javascript.ai"
+        },
+        {
+            "type": "remove",
+            "pluginName": "fleet.kotlin.ai"
+        },
+        {
+            "type": "remove",
+            "pluginName": "fleet.python.ai"
+        },
+        {
+            "type": "remove",
+            "pluginName": "fleet.rust.ai"
+        },
+        {
+            "type": "remove",
+            "pluginName": "fleet.ai"
         }
     ]
 }
