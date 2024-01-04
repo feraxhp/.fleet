@@ -1,6 +1,6 @@
 {
     "theme": "FeraxTheme",
-    "run.recentConfigurationsSize": 10,
+    "run.recentConfigurationsSize": 20,
     "restoreWorkspacesOnStartup": false,
     "createScratchOnNewFile": true,
     "showShortcuts": true,
