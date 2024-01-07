@@ -1,5 +1,5 @@
 {
-    "theme": "FeraxTheme",
+    "theme": "ferax.fleet",
     "run.recentConfigurationsSize": 20,
     "restoreWorkspacesOnStartup": false,
     "createScratchOnNewFile": true,
@@ -53,5 +53,6 @@
             "type": "remove",
             "pluginName": "fleet.ai"
         }
-    ]
+    ],
+    "zoomLevel": 0.8
 }
