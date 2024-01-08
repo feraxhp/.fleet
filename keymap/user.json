@@ -129,10 +129,6 @@
       "trigger": "-show-goto-tool-panel"
     },
     {
-      "key": "shift-ctrl-t",
-      "trigger": "show-goto-tool-panel"
-    },
-    {
       "key": "ctrl-r",
       "trigger": "-go-to-run"
     },
@@ -283,6 +279,26 @@
     {
       "key": "ctrl-shift-b",
       "trigger": "-go-to-type-declaration"
+    },
+    {
+      "key": "shift-ctrl-t",
+      "trigger": "show-in-terminal"
+    },
+    {
+      "key": "shift-ctrl-alt-t",
+      "trigger": "show-goto-tool-panel"
+    },
+    {
+      "key": "ctrl-shift-t",
+      "trigger": "-show-expression-type"
+    },
+    {
+      "key": "ctrl-shift-t",
+      "trigger": "-show-expression-type"
+    },
+    {
+      "key": "shift-ctrl-t",
+      "trigger": "-show-goto-tool-panel"
     }
   ]
 }
