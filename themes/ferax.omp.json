@@ -22,7 +22,7 @@
             "segments": [
                 {
                     "foreground": "lightBlue",
-                    "style": "plain",
+                    "style1": "plain",
                     "template": "# ",
                     "type": "text"
                 },
