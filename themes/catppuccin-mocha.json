@@ -364,7 +364,7 @@
       "layer": 20
     },
     "identifier": {
-      "fgColor": "Maroon",
+      "fgColor": "Greener",
       "layer": 10
     },
     "identifier.alias.yaml": {
@@ -432,7 +432,7 @@
       "layer": 20
     },
     "identifier.parameter": {
-      "fgColor": "Maroon",
+      "fgColor": "Sky",
       "layer": 20
     },
     "identifier.this": {
@@ -758,6 +758,7 @@
     "Lavender": "b4befe",
     "Mantle": "181825",
     "Maroon": "eba0ac",
+    "Greener": "A6F7C3",
     "Mauve": "cba6f7",
     "Overlay0": "6c7086",
     "Overlay1": "7f849c",
