@@ -1,5 +1,5 @@
 {
-    "theme": "ferax.fleet",
+    "theme": "catppuccin-mocha",
     "run.recentConfigurationsSize": 20,
     "restoreWorkspacesOnStartup": false,
     "createScratchOnNewFile": true,
@@ -54,5 +54,7 @@
             "pluginName": "fleet.ai"
         }
     ],
-    "zoomLevel": 0.8
+    "zoomLevel": 0.8,
+    "editor.fontSize": 13.0,
+    "editor.showInlayHints": true
 }

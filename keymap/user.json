@@ -299,6 +299,14 @@
     {
       "key": "shift-ctrl-t",
       "trigger": "-show-goto-tool-panel"
+    },
+    {
+      "key": "shift-ctrl-c",
+      "trigger": "copy-relative-path"
+    },
+    {
+      "key": "shift-ctrl-up",
+      "trigger": "duplicate-line"
     }
   ]
 }
