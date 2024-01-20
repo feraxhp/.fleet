@@ -622,11 +622,6 @@
       "layer": 50,
       "stripeColor": "94e2d540%"
     },
-    "problem.unknown": {
-      "fgColor": "Red",
-      "layer": 50,
-      "stripeColor": "Red"
-    },
     "problem.unused": {
       "decoration": {
         "color": "Overlay1",
