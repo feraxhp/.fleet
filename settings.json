@@ -12,12 +12,10 @@
     ],
     "terminal.fontFamily": "JetBrains Mono",
     "editor.showFloatingDebugPanel": true,
-    "fus.ai.sendAllowed": true,
     "launchTerminalOnOpen": true,
     "editor.showFileStatus": false,
     "editor.showCodeVision": false,
     "editor.renderWhitespace": "All",
-    "editor.showStickyLines": true,
     "editor.alwaysShowVerticalScrollbar": false,
     "completion.autoPopupDelay": 40,
     "plugins": [
@@ -56,5 +54,4 @@
     ],
     "zoomLevel": 0.8,
     "editor.fontSize": 13.0,
-    "editor.showInlayHints": true
 }
