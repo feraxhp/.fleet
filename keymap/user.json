@@ -1,7 +1,7 @@
 {
   "keymap": [
     {
-      "key": "shift-ctrl-alt-down",
+      "key": "alt-down",
       "trigger": "add-caret-down"
     },
     {
@@ -21,7 +21,7 @@
       "trigger": "-add-caret-up"
     },
     {
-      "key": "shift-ctrl-alt-up",
+      "key": "alt-up",
       "trigger": "add-caret-up"
     },
     {
@@ -307,6 +307,30 @@
     {
       "key": "shift-ctrl-up",
       "trigger": "duplicate-line"
+    },
+    {
+      "key": "ctrl-shift-l",
+      "trigger": "-select-all-occurrences"
+    },
+    {
+      "key": "shift-ctrl-a",
+      "trigger": "select-all-occurrences"
+    },
+    {
+      "key": "ctrl-shift-a",
+      "trigger": "-select-all-terminal"
+    },
+    {
+      "key": "ctrl-a",
+      "trigger": "select-all-terminal"
+    },
+    {
+      "key": "alt-shift-i",
+      "trigger": "-add-caret-per-selected-line"
+    },
+    {
+      "key": "alt-end",
+      "trigger": "add-caret-per-selected-line"
     }
   ]
 }
