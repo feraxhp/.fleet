@@ -331,6 +331,10 @@
     {
       "key": "alt-end",
       "trigger": "add-caret-per-selected-line"
+    },
+    {
+      "key": "alt-s",
+      "trigger": "git/sync"
     }
   ]
 }
