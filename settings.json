@@ -1,5 +1,5 @@
 {
-    "theme": "catppuccin-mocha",
+    "theme": "catppuccin-mocha-edited",
     "run.recentConfigurationsSize": 20,
     "restoreWorkspacesOnStartup": false,
     "createScratchOnNewFile": true,
@@ -15,7 +15,7 @@
     "launchTerminalOnOpen": true,
     "editor.showFileStatus": false,
     "editor.showCodeVision": false,
-    "editor.renderWhitespace": "All",
+    "editor.renderWhitespace": "None",
     "editor.alwaysShowVerticalScrollbar": false,
     "completion.autoPopupDelay": 40,
     "plugins": [
@@ -52,7 +52,8 @@
             "pluginName": "fleet.ai"
         }
     ],
-    "zoomLevel": 0.8,
+    "zoomLevel": 0.9,
     "editor.fontSize": 11.5,
-    "editor.showInlayHints": true
+    "editor.showInlayHints": true,
+    "autoSave": "OnFocus"
 }
