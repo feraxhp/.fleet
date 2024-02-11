@@ -5,7 +5,7 @@
         "theme.version": 7
     },
     "colors": {
-        "border": "Base",
+        "border": "Transparent",
         "border.@focused": "Base 3",
         "border.@selected": "Base 2",
         "border.@hovered": "Base 3",
@@ -177,8 +177,8 @@
         //    "dialog.editor.fill": "292929",
         //    "dialog.editor.currentLine.fill": "383838",
         //    "dialog.editor.currentLine.fill.@focused": "383838",
-        //    "dialog.tab.fill": "Transparent",
-        //    "dialog.tab.border": "Transparent",
+//            "dialog.tab.fill": "Transparent",
+//            "dialog.tab.border": "Transparent",
         //    "dialog.tab.text": "d1d1d1",
         //    "dialog.tab.border.@hovered": "Transparent",
         //    "dialog.tab.border.@selected": "d1d1d1",
@@ -412,17 +412,21 @@
         "progress.fill.@indeterminate": "Base",
         "progress.fill.@indeterminate.@gradient": "Greener",
         "progress.fill.@determinate.@gradient": "Green",
-        "scrollbar.fill": "Text",
+
+
+        "scrollbar.fill": "Base",
         "scrollbar.fill.@pressed": "Text hovered",
-        "scrollbar.fill.@hovered": "Green",
-        "scrolltrack.fill": "Base 2",
-        "scrolltrack.fill.@pressed": "Base",
-        "scrolltrack.fill.@hovered": "Base 2",
+        "scrollbar.fill.@hovered": "Base 2",
+        "scrolltrack.fill": "Transparent",
+//        "scrolltrack.fill.@pressed": "Transparent",
+        "scrolltrack.fill.@hovered": "Transparent",
+
+
         "separator.border": "Base",
-        "separator.border.@hovered": "Base 2",
+        "separator.border.@hovered": "Base",
         //    "mainSplit.separator.border": "383838",
         //
-        "split.separator.border.@hovered": "Text hovered",
+        "split.separator.border.@hovered": "Base -1",
         //
 
         //    "simpleToggle.circle.fill.@disabled": "ffffff",
@@ -442,10 +446,10 @@
         //
         "tab.border": "Base 2",
         "tab.border.@hovered": "Base 2",
-        "tab.border.@selected": "Base 2",
-        "tab.border.@focused.@selected": "Base 3",
+        "tab.border.@selected": "Yellow",
+        "tab.border.@focused.@selected": "Text hovered",
         //    "tab.fill": "Base",
-        //    "tab.fill.@selected": "Base",
+            "tab.fill.@selected": "Base",
         //    "tab.fill.@hovered": "Base 2",
         //    "tab.fill.@focused.@selected": "Base 2",
         //    "tab.text": "Red",
@@ -1325,6 +1329,7 @@
         }
     },
     "palette": {
+        "Base -1": "121323",
         "Base": "1e1e2e",
         "Base 2": "363654",
         "Base 3": "46466c",
