@@ -31,7 +31,7 @@
         "text.@selected": "Green",
         "text.@hovered": "Text hovered",
         "text.@dimmed": "Sapphire",
-        "text.@disabled": "Red 80",
+        "text.@disabled": "Red",
         "text.@success": "Greener",
         "text.@error": "Red 30",
         //    "text.@secondary": "Subtext0",
@@ -44,7 +44,7 @@
         "icon.gray.fill": "Overlay1",
         "icon.green.fill": "Green",
         "icon.Peach.fill": "Peach",
-        "icon.red.fill": "Red 80",
+        "icon.red.fill": "Red",
         "focusRing": "White",
         "shadow": "Overlay0",
         //
@@ -98,7 +98,7 @@
         //
         "checkbox.border": "Base 3",
         //    "checkbox.border.@checked": "Base 3",
-        "checkbox.border.@disabled": "Red 80",
+        "checkbox.border.@disabled": "Red",
         //    "checkbox.border.@focused": "0273eb",
         //    "checkbox.border.@partial": "Transparent",
         //    "checkbox.border.@checked.@disabled": "Transparent",
@@ -131,9 +131,9 @@
         //    "checkbox.fill.@checked.@focused.@pressed": "1a85f6",
         //    "checkbox.fill.@partial.@focused.@hovered": "1a85f6",
         //    "checkbox.fill.@partial.@focused.@pressed": "1a85f6",
-        "checkbox.text.@disabled": "Red 80",
+        "checkbox.text.@disabled": "Red",
         "checkbox.icon": "Text hovered",
-        "checkbox.icon.@disabled": "Red 80",
+        "checkbox.icon.@disabled": "Red",
         //    "checkbox.focusRing.@checked.@focused": "194176",
 
 
@@ -177,8 +177,8 @@
         //    "dialog.editor.fill": "292929",
         //    "dialog.editor.currentLine.fill": "383838",
         //    "dialog.editor.currentLine.fill.@focused": "383838",
-//            "dialog.tab.fill": "Transparent",
-//            "dialog.tab.border": "Transparent",
+        //            "dialog.tab.fill": "Transparent",
+        //            "dialog.tab.border": "Transparent",
         //    "dialog.tab.text": "d1d1d1",
         //    "dialog.tab.border.@hovered": "Transparent",
         //    "dialog.tab.border.@selected": "d1d1d1",
@@ -273,7 +273,7 @@
         //    "icon.button.fill": "Transparent",
         //    "icon.button.focusRing": "194176",
         "icon.button.text": "d1d1d1",
-        //    "icon.button.text.@disabled": "Red 80",
+        //    "icon.button.text.@disabled": "Red",
         //    "icon.button.border.@focused": "0273eb",
         //    "icon.button.border.@focused.@hovered": "0273eb",
         //    "icon.button.border.@focused.@pressed": "0273eb",
@@ -323,7 +323,7 @@
         "input.border": "Transparent",
         "input.border.@focused": "Transparent",
         "input.border.@disabled": "Base 2",
-        "input.border.@error": "Red 80",
+        "input.border.@error": "Red",
         "input.border.@error.@focused": "Red 70",
         "input.fill": "Transparent",
         "input.fill.@disabled": "Base 2",
@@ -365,7 +365,7 @@
         //    "primary.button.border.@focused.@hovered": "194176",
         //    "primary.button.border.@focused.@pressed": "194176",
         "primary.button.fill": "Blue",
-        //    "primary.button.fill.@disabled": "Red 80",
+        "primary.button.fill.@disabled": "Base",
         //    "primary.button.fill.@hovered": "0c6ddd",
         "primary.button.fill.@pressed": "Text hovered",
         //    "primary.button.fill.@focused": "0273eb",
@@ -374,7 +374,7 @@
         //    "primary.button.fill.@focused.@hovered": "0c6ddd",
         //    "primary.button.fill.@focused.@pressed": "195eb5",
         "primary.button.text": "Black",
-        //    "primary.button.text.@disabled": "5d5d5d",
+        "primary.button.text.@disabled": "Red",
         //    "primary.button.text.@hovered": "ffffff",
         //    "primary.button.text.@pressed": "ffffff",
         //    "primary.button.text.@disabled.@hovered": "ffffff",
@@ -412,16 +412,12 @@
         "progress.fill.@indeterminate": "Base",
         "progress.fill.@indeterminate.@gradient": "Greener",
         "progress.fill.@determinate.@gradient": "Green",
-
-
         "scrollbar.fill": "Base",
         "scrollbar.fill.@pressed": "Text hovered",
         "scrollbar.fill.@hovered": "Base 2",
         "scrolltrack.fill": "Transparent",
-//        "scrolltrack.fill.@pressed": "Transparent",
+        //        "scrolltrack.fill.@pressed": "Transparent",
         "scrolltrack.fill.@hovered": "Transparent",
-
-
         "separator.border": "Base",
         "separator.border.@hovered": "Base",
         //    "mainSplit.separator.border": "383838",
@@ -449,7 +445,7 @@
         "tab.border.@selected": "Yellow",
         "tab.border.@focused.@selected": "Text hovered",
         //    "tab.fill": "Base",
-            "tab.fill.@selected": "Base",
+        "tab.fill.@selected": "Base",
         //    "tab.fill.@hovered": "Base 2",
         //    "tab.fill.@focused.@selected": "Base 2",
         //    "tab.text": "Red",
@@ -475,7 +471,7 @@
         "terminal.ansiBrightMagenta.fill": "Black",
         "terminal.ansiBrightMagenta.text": "Pink",
         "terminal.ansiBrightRed.fill": "Black",
-        "terminal.ansiBrightRed.text": "Red 80",
+        "terminal.ansiBrightRed.text": "Red",
         "terminal.ansiBrightWhite.fill": "Base",
         "terminal.ansiBrightWhite.text": "Text",
         "terminal.ansiBrightYellow.fill": "Black",
@@ -487,7 +483,7 @@
         "terminal.ansiMagenta.fill": "Black",
         "terminal.ansiMagenta.text": "Text hovered",
         "terminal.ansiRed.fill": "Black",
-        "terminal.ansiRed.text": "Red 80",
+        "terminal.ansiRed.text": "Red",
         "terminal.ansiWhite.fill": "Black",
         "terminal.ansiWhite.text": "Text",
         "terminal.ansiYellow.fill": "Black",
@@ -684,7 +680,7 @@
         "editor.search.results": {
             "bgColor": "Black",
             "fgColor": "Text hovered",
-//            "stripeColor": "Red",
+            //            "stripeColor": "Red",
             "layer": 250
         },
         "editor.rename.entries": {
@@ -703,12 +699,12 @@
                 "style": "DASHED"
             }
         },
-//        "editor.brace.highlighted": {
-//            "bgColor": "Blue 30",
-//            "layer": 300
-//        },
+        //        "editor.brace.highlighted": {
+        //            "bgColor": "Blue 30",
+        //            "layer": 300
+        //        },
         "comment": {
-        "fgColor": "Base C",
+            "fgColor": "Base C",
             "layer": 5
         },
         "comment.doc": {
@@ -735,8 +731,8 @@
             "fgColor": "Text hovered",
             "layer": 1000,
             "decoration": {
-                    "color": "Text hovered",
-                    "style": "DASHED"
+                "color": "Text hovered",
+                "style": "DASHED"
             }
         },
         "error.hovered": {
@@ -776,7 +772,7 @@
             "layer": 25
         },
         "string.escape.unicode": {
-                        "fgColor": "Red",
+            "fgColor": "Red",
             "layer": 25
         },
         "string.escape.alternative": {
@@ -877,7 +873,7 @@
             "layer": 20
         },
         "identifier.field": {
-        "fgColor": "Blue",
+            "fgColor": "Blue",
             "layer": 20
         },
         "identifier.field.static": {
@@ -1111,75 +1107,75 @@
             "bgColor": "Yellow",
             "layer": -60
         },
-//        "diff.added.withBorder": {
-//            "bgColor": "#122923",
-//            "layer": -69,
-//            "fullLine": true,
-//            "decoration": {
-//                "color": "Green 20",
-//                "style": "BORDER"
-//            }
-//        },
-//        "diff.added.empty": {
-//            "bgColor": "Green 30",
-//            "layer": -60,
-//            "showEmptyIntervals": true
-//        },
-//        "diff.deleted": {
-//            "bgColor": "#331B20",
-//            "layer": -69,
-//            "fullLine": true
-//        },
-//        "diff.deleted.word": {
-//            "bgColor": "#4D2A31",
-//            "layer": -60,
-//            "showEmptyIntervals": true
-//        },
-//        "diff.deleted.withBorder": {
-//            "bgColor": "#331B20",
-//            "layer": -69,
-//            "fullLine": true,
-//            "decoration": {
-//                "color": "#572B34",
-//                "style": "BORDER"
-//            }
-//        },
-//        "diff.deleted.empty": {
-//            "bgColor": "#B24052",
-//            "layer": -60,
-//            "showEmptyIntervals": true
-//        },
-//        "diff.modified": {
-//            "bgColor": "#182538",
-//            "layer": -69,
-//            "fullLine": true
-//        },
-//        "diff.modified.word": {
-//            "bgColor": "#1F3657",
-//            "layer": -60
-//        },
-//        "diff.modified.withBorder": {
-//            "bgColor": "#182538",
-//            "layer": -69,
-//            "fullLine": true,
-//            "decoration": {
-//                "color": "Blue 40",
-//                "style": "BORDER"
-//            }
-//        },
-//        "diff.conflict.withBorder": {
-//            "bgColor": "#302518",
-//            "layer": -68,
-//            "fullLine": true,
-//            "decoration": {
-//                "color": "Yellow 20",
-//                "style": "BORDER"
-//            }
-//        },
-//        "refactoring.modified.code": {
-//            "bgColor": "Green 30",
-//            "layer": -60
-//        },
+        //        "diff.added.withBorder": {
+        //            "bgColor": "#122923",
+        //            "layer": -69,
+        //            "fullLine": true,
+        //            "decoration": {
+        //                "color": "Green 20",
+        //                "style": "BORDER"
+        //            }
+        //        },
+        //        "diff.added.empty": {
+        //            "bgColor": "Green 30",
+        //            "layer": -60,
+        //            "showEmptyIntervals": true
+        //        },
+        //        "diff.deleted": {
+        //            "bgColor": "#331B20",
+        //            "layer": -69,
+        //            "fullLine": true
+        //        },
+        //        "diff.deleted.word": {
+        //            "bgColor": "#4D2A31",
+        //            "layer": -60,
+        //            "showEmptyIntervals": true
+        //        },
+        //        "diff.deleted.withBorder": {
+        //            "bgColor": "#331B20",
+        //            "layer": -69,
+        //            "fullLine": true,
+        //            "decoration": {
+        //                "color": "#572B34",
+        //                "style": "BORDER"
+        //            }
+        //        },
+        //        "diff.deleted.empty": {
+        //            "bgColor": "#B24052",
+        //            "layer": -60,
+        //            "showEmptyIntervals": true
+        //        },
+        //        "diff.modified": {
+        //            "bgColor": "#182538",
+        //            "layer": -69,
+        //            "fullLine": true
+        //        },
+        //        "diff.modified.word": {
+        //            "bgColor": "#1F3657",
+        //            "layer": -60
+        //        },
+        //        "diff.modified.withBorder": {
+        //            "bgColor": "#182538",
+        //            "layer": -69,
+        //            "fullLine": true,
+        //            "decoration": {
+        //                "color": "Blue 40",
+        //                "style": "BORDER"
+        //            }
+        //        },
+        //        "diff.conflict.withBorder": {
+        //            "bgColor": "#302518",
+        //            "layer": -68,
+        //            "fullLine": true,
+        //            "decoration": {
+        //                "color": "Yellow 20",
+        //                "style": "BORDER"
+        //            }
+        //        },
+        //        "refactoring.modified.code": {
+        //            "bgColor": "Green 30",
+        //            "layer": -60
+        //        },
         "problem.error": {
             "layer": 70,
             "decoration": {
@@ -1309,26 +1305,30 @@
         "editor.indent.guide": {
             "fgColor": "Surface2",
             "decoration": {
-                "style": "DASHED"
+                "style": "DASHED",
             }
         },
-//        "editor.indent.guide.current": {
-//            "fgColor": "Green",
-//            "decoration": {
-//                "style": "DASHED"
-//            }
-//        },
+        "editor.indent.guide.current": {
+            "fgColor": "Green",
+            "decoration": {
+                "style": "DASHED",
+            }
+        },
         "editor.indent.guide.declaration": {
-            "fgColor": "Text"
+            "fgColor": "Text",
+            "decoration": {
+                "style": "DASHED",
+            }
         },
         "editor.indent.guide.declaration.current": {
             "fgColor": "Text hovered",
             "decoration": {
-                    "style": "DASHED"
+                "style": "BORDER",
             }
         }
     },
     "palette": {
+        "Black": "000000",
         "Base -1": "121323",
         "Base": "1e1e2e",
         "Base 2": "363654",
@@ -1337,18 +1337,11 @@
         "Text": "cdd6f4",
         "Text hovered": "dc9aff",
         "Blue": "89b4fa",
-        "Blueer": "5B8A99",
-        "Black": "000000",
-        "Crust": "11111b",
-        "Back-Crust": "ffffff",
         "Flamingo": "f2cdcd",
         "Back-Flamingo": "1D273A",
         "Green": "a6e3a1",
         "Lavender": "b4befe",
-        "Mantle": "181825",
-        "Maroon": "eba0ac",
         "Greener": "A6F7C3",
-        "Mauve": "cba6f7",
         "Violet": "A04792",
         "Overlay0": "6c7086",
         "Overlay1": "7f849c",
@@ -1361,49 +1354,9 @@
         "Sapphire": "7db3ff",
         "Sky": "89dceb",
         "Subtext0": "a6adc8",
-        "Subtext1": "bac2de",
-        "Surface0": "313244",
-        "Surface1": "45475a",
         "Surface2": "585b70",
-        "tab-selected": "1e1e2e",
-        "tab-focused": "1e1e2e",
         "Teal": "94e2d5",
         "Transparent": "ffffff0%",
         "Yellow": "f9e2af",
-        "Red 80": "ec7388",
-        "Red 70": "ea4b67",
-        "Red 60": "d93953",
-        "Red 50": "ce364d",
-        "Red 40": "c03248",
-        "Red 30": "a72a3f",
-        "Red 20": "761b2d",
-        "Red 10": "390813",
-        "Green 80": "4ca988",
-        "Green 70": "3ea17f",
-        "Green 60": "028764",
-        "Green 50": "07805f",
-        "Green 40": "13664e",
-        "Green 30": "134939",
-        "Green 20": "0e3127",
-        "Green 10": "081f19",
-        "Yellow 60": "f8ab17",
-        "Yellow 50": "e1971b",
-        "Yellow 40": "b5791f",
-        "Yellow 30": "7c511a",
-        "Yellow 20": "5a3a14",
-        "Yellow 10": "281806",
-        "Purple 20": "c07bf3",
-        "Purple 10": "b35def",
-        "Blue 110": "6daaf7",
-        "Blue 100": "4d9bf8",
-        "Blue 90": "3691f9",
-//        "Blue": "1a85f6",
-        "Blue 70": "0273eb",
-        "Blue 60": "0c6ddd",
-        "Blue 50": "195eb5",
-        "Blue 40": "194176",
-        "Blue 30": "163764",
-        "Blue 20": "132c4f",
-        "Blue 10": "0b1b32"
     }
 }
