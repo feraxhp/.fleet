@@ -335,6 +335,62 @@
     {
       "key": "alt-s",
       "trigger": "git/sync"
+    },
+    {
+      "key": "ctrl-shift-r",
+      "trigger": "-run/run-at-caret"
+    },
+    {
+      "key": "ctrl-alt-f10",
+      "trigger": "run/run-at-caret"
+    },
+    {
+      "key": "alt-shift-r",
+      "trigger": "-debug/debug-at-caret"
+    },
+    {
+      "key": "shift-alt-f10",
+      "trigger": "debug/debug-at-caret"
+    },
+    {
+      "key": "ctrl-down",
+      "trigger": "-go-to-next-symbol"
+    },
+    {
+      "key": "ctrl-alt-left",
+      "trigger": "structural-backward"
+    },
+    {
+      "key": "ctrl-alt-down",
+      "trigger": "structural-down"
+    },
+    {
+      "key": "ctrl-alt-right",
+      "trigger": "structural-forward"
+    },
+    {
+      "key": "ctrl-alt-up",
+      "trigger": "structural-up"
+    },
+    {
+      "key": "alt-o",
+      "trigger": "set-caret"
+    },
+    {
+      "key": "shift-ctrl-alt-right",
+      "trigger": "go-to-next-symbol"
+    },
+    {
+      "key": "shift-alt-o",
+      "trigger": "set-caret-with-selection"
+    },
+    {
+      "key": "alt-shift-o",
+      "trigger": "-optimize-imports"
+    },
+    {
+      "key": "shift-i",
+      "trigger": "optimize-imports"
     }
   ]
 }
