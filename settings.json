@@ -1,5 +1,5 @@
 {
-    "theme": "catppuccin-mocha-edited",
+    "theme": "ferax.fleet",
     "run.recentConfigurationsSize": 20,
     "restoreWorkspacesOnStartup": false,
     "createScratchOnNewFile": true,
@@ -15,7 +15,7 @@
     "launchTerminalOnOpen": true,
     "editor.showFileStatus": false,
     "editor.showCodeVision": false,
-    "editor.renderWhitespace": "None",
+    "editor.renderWhitespace": "All",
     "editor.alwaysShowVerticalScrollbar": false,
     "completion.autoPopupDelay": 40,
     "plugins": [
@@ -55,5 +55,10 @@
     "zoomLevel": 0.9,
     "editor.fontSize": 11.5,
     "editor.showInlayHints": true,
-    "autoSave": "OnFocus"
+    "autoSave": "OnFocus",
+    "editor.previewTab": true,
+    "editor.showIndentGuides": true,
+    "showEmptyStateOnLastClosedWindow": true,
+    "editor.caretBlinkingEnabled": true,
+    "editor.caretShape": "Vertical"
 }
