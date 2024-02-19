@@ -34,7 +34,7 @@
         "text.@disabled": "Red",
         "text.@success": "Greener",
         "text.@error": "Red 30",
-        //    "text.@secondary": "Subtext0",
+        //    "text.@secondary": "SelectionColor",
         //    "text.@placeholder": "Green",
         //    "text.@warning": "ffffff",
 
@@ -665,8 +665,8 @@
     },
     "text-attributes": {
         "editor.selection": {
-            "bgColor": "Subtext0",
-            "fgColor": "Black",
+            "bgColor": "SelectionColor",
+//            "fgColor": "Black",
             "layer": 2000
         },
         "editor.text.scheme": {
@@ -1336,6 +1336,7 @@
         "Base C": "7373A3",
         "Text": "cdd6f4",
         "Text hovered": "dc9aff",
+        "SelectionColor": "dc9aff50%",
         "Blue": "89b4fa",
         "Flamingo": "f2cdcd",
         "Back-Flamingo": "1D273A",
@@ -1353,7 +1354,6 @@
         "Rosewater": "f5e0dc",
         "Sapphire": "7db3ff",
         "Sky": "89dceb",
-        "Subtext0": "a6adc8",
         "Surface2": "585b70",
         "Teal": "94e2d5",
         "Transparent": "ffffff0%",
