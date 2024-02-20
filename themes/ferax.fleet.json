@@ -1104,7 +1104,7 @@
             "fullLine": true
         },
         "diff.added.word": {
-            "bgColor": "Yellow",
+            "bgColor": "SelectionColor",
             "layer": -60
         },
         //        "diff.added.withBorder": {
