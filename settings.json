@@ -52,7 +52,7 @@
             "pluginName": "fleet.ai"
         }
     ],
-    "zoomLevel": 0.9,
+    "zoomLevel": 1.0,
     "editor.fontSize": 11.5,
     "editor.showInlayHints": true,
     "autoSave": "OnFocus",
