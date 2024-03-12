@@ -255,7 +255,7 @@
         "editor.folding.icon.fill.@hovered": "Text hovered",
         "editor.folding.fill.@hovered": "Base 2",
         "editor.folded.text": "Text hovered",
-        "editor.folded.fill": "Base",
+        "editor.folded.fill": "Transparent",
         //    "editor.selectableFolded.fill.@active": "163764",
         //    "editor.selectableFolded.fill.@inactive": "Transparent",
         //    "editor.selectableFolded.border.@active": "1a85f6",

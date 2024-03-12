@@ -391,6 +391,26 @@
     {
       "key": "shift-i",
       "trigger": "optimize-imports"
+    },
+    {
+      "key": "ctrl-minus",
+      "trigger": "fold-selection"
+    },
+    {
+      "key": "shift-ctrl-minus",
+      "trigger": "fold-selection"
+    },
+    {
+      "key": "alt-plus",
+      "trigger": "zoom-in"
+    },
+    {
+      "key": "alt-minus",
+      "trigger": "zoom-out"
+    },
+    {
+      "key": "alt-digit0",
+      "trigger": "reset-zoom"
     }
   ]
 }
