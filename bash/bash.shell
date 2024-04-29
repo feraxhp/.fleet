@@ -1,0 +1,11 @@
+# Para añadir estos comandos en la terminal
+# por favor agregar este codigo en .bashsrc
+# feraxhp github preferences
+
+if [ -d ~/.fleet/bash ]; then
+    for rc in -d ~/.fleet/bash/*.bash; do
+        if [ -f "$rc" ]; then
+            . "$rc"
+        fi
+    done
+fi
