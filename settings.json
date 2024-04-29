@@ -4,12 +4,6 @@
     "restoreWorkspacesOnStartup": false,
     "createScratchOnNewFile": true,
     "showShortcuts": true,
-    "terminal.profiles": [
-        {
-            "program": "pwsh.exe",
-            "args": ["-nologo"], 
-        }
-    ],
     "terminal.fontFamily": "JetBrains Mono",
     "editor.showFloatingDebugPanel": true,
     "launchTerminalOnOpen": true,
