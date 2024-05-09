@@ -411,6 +411,18 @@
     {
       "key": "alt-digit0",
       "trigger": "reset-zoom"
+    },
+    {
+      "key": "ctrl-alt-u",
+      "trigger": "toggle-case"
+    },
+    {
+      "key": "ctrl-shift-graveaccent",
+      "trigger": "-new-terminal"
+    },
+    {
+      "key": "shift-ctrl-period",
+      "trigger": "new-terminal"
     }
   ]
 }
