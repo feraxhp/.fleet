@@ -10,7 +10,7 @@
                         "fetch_version": false
                     },
                     "style": "plain",
-                    "template": "({{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }})",
+                    "template": "({{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv -}} {{ end }}{{ .Full }}{{ end }})",
                     "type": "python"
                 }
             ],
@@ -25,12 +25,6 @@
                     "style1": "plain",
                     "template": "# ",
                     "type": "text"
-                },
-                {
-                    "foreground": "red",
-                    "style": "plain",
-                    "template": " % ",
-                    "type": "root"
                 },
                 {
                     "style": "plain",
@@ -76,7 +70,7 @@
                 {
                     "foreground": "lightRed",
                     "style": "plain",
-                    "template": "$",
+                    "template": "{{ if .Root }}%{{ else }}${{ end }}",
                     "type": "text"
                 }
             ],
