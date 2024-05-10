@@ -25,7 +25,7 @@ install-minecraft(){
     if command -v minecraft &> /dev/null; then
         echo "Ya esta instalado"
     else
-        mpath="/usr/prueba/.local/bin"
+        mpath="$HOME/.local/bin"
 
         echo "Creating folder"
         mkdir -p $mpath
