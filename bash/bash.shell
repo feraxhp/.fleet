@@ -9,3 +9,5 @@ if [ -d ~/.fleet/bash ]; then
         fi
     done
 fi
+
+unset rc
