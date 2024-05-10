@@ -423,6 +423,18 @@
     {
       "key": "shift-ctrl-period",
       "trigger": "new-terminal"
+    },
+    {
+      "key": "shift-n",
+      "trigger": "new-local-workspace"
+    },
+    {
+      "key": "alt-w",
+      "trigger": "new-local-workspace"
+    },
+    {
+      "key": "shift-ctrl-d",
+      "trigger": "new-docker-tool"
     }
   ]
 }
