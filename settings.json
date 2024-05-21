@@ -1,10 +1,10 @@
 {
-    "theme": "ferax.fleet",
+    "theme": "dark",
     "run.recentConfigurationsSize": 20,
     "restoreWorkspacesOnStartup": false,
     "createScratchOnNewFile": true,
     "showShortcuts": true,
-    "terminal.fontFamily": "JetBrains Mono",
+    "terminal.fontFamily": "JetBrains Mono Light",
     "editor.showFloatingDebugPanel": true,
     "launchTerminalOnOpen": true,
     "editor.showFileStatus": false,
@@ -46,13 +46,22 @@
             "pluginName": "fleet.ai"
         }
     ],
-    "zoomLevel": 1.0,
-    "editor.fontSize": 11.5,
+    "zoomLevel": 0.9,
+    "editor.fontSize": 13.0,
     "editor.showInlayHints": true,
     "autoSave": "OnFocus",
     "editor.previewTab": true,
     "editor.showIndentGuides": true,
     "showEmptyStateOnLastClosedWindow": true,
     "editor.caretBlinkingEnabled": true,
-    "editor.caretShape": "Vertical"
+    "editor.caretShape": "Vertical",
+    "goto_panel.showShortcuts": false,
+    "java.runtimes": [
+        {
+            "path": "/home/feraxhp/.jetbrains/.jdks/corretto-1.8.0_412",
+            "name": "corretto-1.8"
+        }
+    ],
+    "keymap": "pc",
+    "editor.fontFamily": "JetBrainsMono Nerd Font"
 }

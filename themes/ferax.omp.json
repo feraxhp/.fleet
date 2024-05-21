@@ -21,14 +21,17 @@
             "newline": true,
             "segments": [
                 {
+                    "type": "command",
+                    "style": "plain",
                     "foreground": "lightBlue",
-                    "style1": "plain",
-                    "template": "# ",
-                    "type": "text"
+                    "properties": {
+                        "command": "docker info &> /dev/null && echo 1 || echo 0"
+                    },
+                    "template": "{{ if eq .Output \"1\" }}<#32CD32>仚</>{{ else }}# {{ end }}"
                 },
                 {
                     "style": "plain",
-                    "template": "<cyan>{{ .UserName }}</> <darkGray>@</> <green>{{ .HostName }}</> ",
+                    "template": "<cyan>{{ .UserName }}</> <darkGray>@</> <green>{{ .HostName }}</>",
                     "type": "session"
                 },
                 {
@@ -37,7 +40,7 @@
                         "style": "full"
                     },
                     "style": "plain",
-                    "template": "<darkGray>in </>{{ .Path }} ",
+                    "template": "<darkGray> in </>{{ .Path }} ",
                     "type": "path"
                 },
                 {
