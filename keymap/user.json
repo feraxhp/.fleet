@@ -261,10 +261,6 @@
       "trigger": "-focus-main-panel"
     },
     {
-      "key": "alt-digit0",
-      "trigger": "focus-main-panel"
-    },
-    {
       "key": "ctrl-q",
       "trigger": "show-documentation"
     },
@@ -435,6 +431,10 @@
     {
       "key": "shift-ctrl-d",
       "trigger": "new-docker-tool"
+    },
+    {
+      "key": "ctrl-escape",
+      "trigger": "focus-main-panel"
     }
   ]
 }
