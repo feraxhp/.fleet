@@ -48,7 +48,7 @@ else
 fi
 
 # Configuración de .bashrc
-if [[ "$dock" == "y" || "$dock" == "Y" ]]; then
+if [[ "$bsh" == "y" || "$bsh" == "Y" ]]; then
     echo "Configurando .bashrc"
     
     cp ~/.bashrc ~/.bashrc.bak
