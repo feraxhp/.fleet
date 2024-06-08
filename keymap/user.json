@@ -435,6 +435,34 @@
     {
       "key": "ctrl-escape",
       "trigger": "focus-main-panel"
+    },
+    {
+      "key": "shift-m",
+      "trigger": "focus-main-panel"
+    },
+    {
+      "key": "alt-eacute",
+      "trigger": "-focus-and-toggle-bottom-panel"
+    },
+    {
+      "key": "alt-ampersand",
+      "trigger": "-focus-and-toggle-left-panel"
+    },
+    {
+      "key": "alt-quotationmark",
+      "trigger": "-focus-and-toggle-right-panel"
+    },
+    {
+      "key": "ctrl-tab",
+      "trigger": "-show-switcher"
+    },
+    {
+      "key": "ctrl-verticalline",
+      "trigger": "show-switcher"
+    },
+    {
+      "key": "shift-l",
+      "trigger": "next-goto-tab"
     }
   ]
 }
