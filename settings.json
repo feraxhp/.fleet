@@ -1,67 +1,28 @@
 {
-    "theme": "dark",
-    "run.recentConfigurationsSize": 20,
+    
+    "theme": "dark_purple",
+    "collaboration.displayName": "feraxhp",
     "restoreWorkspacesOnStartup": false,
-    "createScratchOnNewFile": true,
     "showShortcuts": true,
-    "terminal.fontFamily": "JetBrains Mono Light",
+    "terminal.enableFocusEditorOnEsc": true,
     "editor.showFloatingDebugPanel": true,
-    "launchTerminalOnOpen": true,
-    "editor.showFileStatus": false,
-    "editor.showCodeVision": false,
-    "editor.renderWhitespace": "All",
-    "editor.alwaysShowVerticalScrollbar": false,
-    "completion.autoPopupDelay": 40,
-    "plugins": [
-        {
-            "type": "remove",
-            "pluginName": "fleet.aiCompletion"
-        },
-        {
-            "type": "remove",
-            "pluginName": "fleet.go.ai"
-        },
-        {
-            "type": "remove",
-            "pluginName": "fleet.java.ai"
-        },
-        {
-            "type": "remove",
-            "pluginName": "fleet.javascript.ai"
-        },
-        {
-            "type": "remove",
-            "pluginName": "fleet.kotlin.ai"
-        },
-        {
-            "type": "remove",
-            "pluginName": "fleet.python.ai"
-        },
-        {
-            "type": "remove",
-            "pluginName": "fleet.rust.ai"
-        },
-        {
-            "type": "remove",
-            "pluginName": "fleet.ai"
-        }
-    ],
-    "zoomLevel": 0.9,
-    "editor.fontSize": 13.0,
-    "editor.showInlayHints": true,
-    "autoSave": "OnFocus",
-    "editor.previewTab": true,
-    "editor.showIndentGuides": true,
-    "showEmptyStateOnLastClosedWindow": true,
+    "files.toggleFolderMode": "singleClick",
+    "files.openFileMode": "doubleClick",
+    "editor.caretSmoothAnimation": true,
     "editor.caretBlinkingEnabled": true,
-    "editor.caretShape": "Vertical",
-    "goto_panel.showShortcuts": false,
+    "editor.hoverTooltipDelayMs": 100,
+    "completion.autoPopupDelay": 50,
+    "editor.alwaysShowVerticalScrollbar": false,
+    "editor.renderWhitespace": "All",
+    "zoomLevel": 0.9,
     "java.runtimes": [
         {
             "path": "/home/feraxhp/.jetbrains/.jdks/corretto-1.8.0_412",
             "name": "corretto-1.8"
+        },
+        {
+            "path": "/home/feraxhp/.jdks/jbr-17.0.9"
         }
     ],
-    "keymap": "pc",
-    "editor.fontFamily": "JetBrainsMono Nerd Font"
+    "editor.showInlayHints": true
 }
