@@ -1,6 +1,6 @@
 
 omp() {
-    eval "$(oh-my-posh init bash --config '~/.fleet/themes/other/ferax.omp.json')"
+    eval "$(oh-my-posh init bash --config $HOME'/.fleet/themes/other/ferax.omp.json')"
 }
 
 if command -v oh-my-posh &> /dev/null; then
