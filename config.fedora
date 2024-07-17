@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Para probar el script ejecutar en docker: 
+# docker run --rm -v ~/.fleet:/root/.fleet -it fedora:40 bash
+# /root/.fleet/config.fedora
+
 # Instalación de oh-my-posh
 
 omp=""
@@ -19,12 +23,48 @@ done
 
 # Configuracion omp
 if [[ "$omp" == "y" || "$omp" == "Y" ]]; then
-    echo "Instalando oh-my-posh"
-    export omp_path="$HOME/.omp/instalation"
-    mkdir -p "$omp_path"
-    echo "Descarga en curso"
-    curl -s 'https://ohmyposh.dev/install.sh' | bash -s -- -d "$omp_path"
-    export bashconf=$(echo -e "\n # Path omp\n export PATH=\$PATH:$omp_path\n \n " | sed 's/\\n/\n/g')
+    echo "Verificando dependencias [unzip]"
+    
+    if command -v unzip &> /dev/null; then
+        echo "unzip instalado"
+    else
+        echo "Se requiere unzip para instalar oh-my-posh"
+        
+        z=""
+        while [[ "$z" != "y" && "$z" != "n" && "$z" != "Y" && "$z" != "N" ]]; do
+            read -p "¿Desea instalar zip? (y/n): " z
+        done
+        
+        if [[ "$z" == "y" || "$z" == "Y" ]]; then
+            echo "Instalando unzip"
+            
+            echo "Para instalar zip se requieren permisos de superU"
+            sudo dnf -y install zip
+            
+            if command -v unzip &> /dev/null; then
+                echo "zip instalado correctamente ..."
+                echo "Continuando con la instalación de oh-my-posh"
+            
+            else
+                echo "No se pudo instalar unzip"
+                echo "No se instalará oh-my-posh"
+                omp="n"
+            fi
+        fi
+    fi
+    
+    if [[ "$omp" == "y" || "$omp" == "Y" ]]; then
+        echo "Instalando oh-my-posh"
+        export omp_path="$HOME/.omp/instalation"
+        mkdir -p "$omp_path"
+        echo "Descarga en curso"
+        curl -s 'https://ohmyposh.dev/install.sh' | bash -s -- -d "$omp_path"
+        export bashconf=$(echo -e "\n # Path omp\n export PATH=\$PATH:$omp_path\n \n " | sed 's/\\n/\n/g')
+    else
+        echo "No se instalará oh-my-posh"
+        export omp_path=""
+        export bashconf=""
+    fi
 else
     echo "No se instalará oh-my-posh"
     export omp_path=""
@@ -42,7 +82,7 @@ if [[ "$dock" == "y" || "$dock" == "Y" ]]; then
     echo "Añadiendo al grupo $USER"
     sudo usermod -aG docker $USER
     groups $USER
-    echo -e"Para poder usar docker sin sudo, reinicie la session"
+    echo -e "Para poder usar docker sin sudo, reinicie la session"
 else
     echo "No se instalará docker"
 fi

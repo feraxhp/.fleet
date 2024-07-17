@@ -22,7 +22,28 @@
         },
         {
             "path": "/home/feraxhp/.jdks/jbr-17.0.9"
+        },
+        {
+            "path": "/home/feraxhp/.jdks/jbr-17.0.9",
+            "name": "jbr-17"
+        },
+        {
+            "path": "/home/feraxhp/.jetbrains/.jdks/jbr-17.0.9",
+            "name": "jbr-17"
         }
     ],
-    "editor.showInlayHints": true
+    "editor.showInlayHints": true,
+    "keymap": "fleet",
+    "vimEmulationEnabled": false,
+    "plugins": [
+        {
+            "type": "add",
+            "pluginName": "izhangzhihao.fleet.rainbow.brackets"
+        },
+        {
+            "type": "add",
+            "pluginName": "gradle.daemon.services"
+        }
+    ],
+    "rainbow.brackets.version": "0.3.2"
 }
